@@ -1,0 +1,634 @@
+.meni{
+    display: inline-flex;
+    background-color: #b7976c;
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+}
+#sjaja{
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    background: linear-gradient(45deg, #ffffff00, #ffffff00,rgba(255, 255, 255, 0.442), #ffffff00, rgba(255, 255, 255, 0.442), #ffffff00,rgba(255, 255, 255, 0.442), #ffffff00,#ffffff00 );
+    z-index: 5;
+    animation: animacija 9s ease infinite;
+
+}
+.logo{
+    height: 100%;
+    margin-left: 8%;
+
+}
+div .stranice{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin: 2% 10%;
+    position:static;
+}
+.stranice li{
+    padding: 0vw 5vw;
+    position:static;
+
+}
+.stranice li a{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:900;    
+    font-size: 30px;
+    position:static;
+    z-index: 10;
+
+}
+#prvi{
+    width: 100%;
+    height: 600px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative; 
+    overflow: hidden;
+    background: linear-gradient(0deg, #ffffff, #ffffff00);
+    
+}
+#logoZ{
+    position: absolute;
+    display: block;
+    margin: 3% 29%;
+    height: 300px;
+    z-index: 1;
+}
+#prvi video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+.prstenje {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(145deg, #e0e0e0, #c0c0c0);
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 10px;
+    height: 100px;
+    width: 350px;
+}
+
+.prstenje img {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.prstenje .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.prstenje .text .naslov {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.prstenje .text .podnaslov {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 5px;
+}   
+
+.ogrlice {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(145deg, #8b7f71, #9e9181);
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 10px;
+    height: 100px;
+    width: 350px;
+}
+
+.ogrlice img {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.ogrlice .text {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.ogrlice .text .naslov {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.ogrlice .text .podnaslov {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 5px;
+} 
+
+.inZlato {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(145deg, #b1936a, #ceac7f);
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 10px;
+    height: 100px;
+    width: 350px;
+}
+
+.inZlato img {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.inZlato .text {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.inZlato .text .naslov {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.inZlato .text .podnaslov {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 5px;
+} 
+
+.Dukati {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(145deg, #977f7f, #a18787);
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 10px;
+    height: 100px;
+    width: 350px;
+}
+
+.Dukati img {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.Dukati .text {
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+.Dukati .text .naslov {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.Dukati .text .podnaslov {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 5px;
+}
+
+#oNama{
+    display: inline-block;
+    border-radius: 55px;
+    background-image: url(slike/svila.jpg);
+    background-size: cover;
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+#oNama h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+#oNama p{
+    font-size: 1.5rem;
+}
+
+#ng{
+    display: inline-block;
+    
+    border-radius: 55px;
+    width: 43%;
+    background-size: cover;
+    margin: 80px 25px;
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-image: url(slike/ng.jpeg);
+    background-size: cover;
+}
+#ng h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+    
+}
+#ng p{
+    font-size: 1.5rem;
+       color: white;
+}
+#nk{
+    display: inline-block;
+
+    border-radius: 55px;
+    width: 43%;
+    background-size: cover;
+    margin: 80px 25px;
+    padding: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-image: url(slike/nk.jpg);
+    background-size: cover;
+}
+#nk h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+#nk p{
+    font-size: 1.5rem;
+}
+
+/*Proizvodi*/
+
+#pPrstenje, #pOgrlice,#pInZlato,#pDukati{
+    border-radius: 50px;
+    background-image: url(slike/prsPoz.jpg);
+    background-size:100% 100%;
+    background-position: center;
+    padding: 30px;
+    width: 95%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+#pOgrlice{
+    margin-top: 60px;
+    background-image: url(slike/ogrPoz.jpeg);
+}
+#pInZlato, #pDukati{
+    display: inline-block;
+    width: 43%;
+    margin: 50px 25px;
+    border: 1px solid black;
+}
+#pInZlato{
+    background-image: url(slike/inZlPoz.jpg);
+}
+#pDukati{
+    background-image: url(slike/dukPoz.jpeg);
+}
+
+.pNaslov{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+}
+#pInZlato .pNaslov, #pDukati .pNaslov{ font-size: 75px;}
+.proizvod{
+    display: inline-block;
+    height: 230px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px 78px;
+    background-size: cover;
+
+}
+.proizvodZ{
+    display: inline-block;
+    height: 230px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px 50px;
+    background-size: cover;
+}
+
+#p1{
+    background-image: url(slike/p1.png);
+}
+#p1:hover{
+    background-image: url(slike/p1H.png);
+    transition: all 1s ease;
+}
+#p2{
+    background-image: url(slike/p2.jpg);
+}
+#p2:hover{
+    background-image: url(slike/p2H.jpg);
+    transition: all 1s ease;
+}
+#p3{
+    background-image: url(slike/p3.jpg);
+}
+#p3:hover{
+    background-image: url(slike/p3H.jpg);
+    transition: all 1s ease;
+}
+#p4{
+    background-image: url(slike/p4.jpg);
+}
+#p4:hover{
+    background-image: url(slike/p4H.jpg);
+    transition: all 1s ease;
+}
+#o1{
+    background-image: url(slike/o1.jpg);
+}
+#o1:hover{
+    background-image: url(slike/o1H.jpg);
+    transition: all 1s ease;
+}
+#o2{
+    background-image: url(slike/o2.jpg);
+}
+#o2:hover{
+    background-image: url(slike/o2H.jpg);
+    transition: all 1s ease;
+}#o3{
+    background-image: url(slike/o3.jpg);
+}
+#o3:hover{
+    background-image: url(slike/o3H.jpg);
+    transition: all 1s ease;
+}#o4{
+    background-image: url(slike/o4.jpg);
+}
+#o4:hover{
+    background-image: url(slike/o4H.jpg);
+    transition: all 1s ease;
+}
+#iz1{
+    background-image: url(slike/iz1.jpg);
+}
+#iz2{
+    background-image: url(slike/iz2.jpg);
+}
+#d1{
+    background-image: url(slike/dukat.jpeg);
+}#d1:hover{
+    background-image: url(slike/d1H.jpg);
+    transition: all 1s ease;
+}
+#d2{
+    background-image: url(slike/d2.jpg);
+}#d2:hover{
+    background-image: url(slike/d2H.jpg);
+    transition: all 1s ease;
+}
+
+/*Prodaja*/
+
+#PrstenSlika{
+    display: flex;
+    float: left;
+    height: 800px;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 3% 100px 0px 5%;
+}
+#naziv{
+    font-size: 50px;
+    margin-top: 3%;
+}
+#cena{
+    font-size: 30px;
+}
+#podaci p{
+    font-size: 20px;
+    color: gray;
+}
+
+/*Kontakt*/
+
+#kontakt{
+    display: flex;
+    background-color: #fdf5ed;
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 100px;
+    padding: 60px;
+}
+#radnica{
+    float: right;
+    border-radius: 50px;
+    margin-left: 60px;
+}
+#text{
+    text-align: center;
+    color: #8b7f71;
+}
+#text p{
+    font-size: 50px;
+    color: #8b7f71;
+}
+#poziv{
+    width: 370px;
+    height: 60px;
+    border-radius: 50px;
+    background: linear-gradient(0deg, #744f18, #ed9236);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    color: white;
+
+
+}
+#poziv img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#poziv:hover{
+    background: linear-gradient(0deg, #2b2b2a, #a7a7a7);
+}
+#mejl{
+    display: block;
+    width: 470px;
+    height: 60px;
+    border-radius: 50px;
+    background: linear-gradient(0deg, #744f18, #ed9236);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px auto;
+    padding: 5px;
+    color: white;
+}
+#mejl img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: white;
+}
+#mejl:hover{
+    background: linear-gradient(0deg, #2b2b2a, #a7a7a7);
+}
+
+#dole{
+    display: flex;
+    width: 90%;
+    height: 800px;
+    margin: auto;
+}
+#lokacija{
+    width: 50%;
+    margin: 5px;
+    text-align: left;
+
+}
+#ns{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+#mapa{
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+#adesa{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#vreme{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+#formular{
+    text-align: left;
+    float: right;
+}
+.polje{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(210, 210, 210);
+    border: 1px solid rgb(43, 43, 43);
+}
+#poruka{
+    display: block;
+    height: 340px;
+    width: 100%;
+    border-radius: 50px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+#posalji{
+    width: 370px;
+    height: 60px;
+    border-radius: 50px;
+    background: linear-gradient(0deg, #744f18, #ed9236);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    margin: 20px 30%;
+}
+
+
+
+
+
+@keyframes animacija {
+    from{margin-left: -100%;}
+    to{margin-left: 150%;}
+}
+
+@media (max-width: 700px){
+     .Dukati .text, .inZlato .text, .ogrlice .text, .prstenje .text{
+        display: none;
+    }
+    .Dukati,.inZlato,.prstenje,.ogrlice{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px 50px;
+    }
+    .Dukati img, .inZlato img, .ogrlice img, .prstenje img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    #logoZ{
+        width: 80%;
+        height: auto;
+        margin: 30px 10%;
+    }
+    .stranice li a{
+        font-size: 20px;
+        margin: auto;
+    }
+    div .stranice{
+        margin: auto;
+    }
+
+
+
+}
+@media (max-width: 1350px){
+    .logo{
+        display: none;
+    }
+    #ng, #nk, #pInZlato, #pDukati{
+        width: 80%;
+    }
+    #pDukati h1{
+        font-size: 50%;
+    }
+    #formular{
+        flex-direction: column;
+    }
+}
